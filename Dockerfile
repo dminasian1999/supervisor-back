@@ -9,4 +9,4 @@
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 COPY ./target/supervisor-back-0.0.1-SNAPSHOT.jar ./supervisor-back.jar
-CMD ["java", "-jar", "/app/supervisor-back.jar"]
+CMD ["java", "-jar", "supervisor-back.jar"]
